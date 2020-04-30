@@ -1,6 +1,7 @@
 package in.psg.diwithoutspring;
 
 import in.psg.diwithoutspring.controllers.ConstructorInjectedController;
+import in.psg.diwithoutspring.controllers.MyController;
 import in.psg.diwithoutspring.controllers.PropertyInjectedController;
 import in.psg.diwithoutspring.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
@@ -27,6 +28,12 @@ public class DiWithoutSpringApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		String greetingFromConstructor = constructorInjectedController.getGreeting();
 		System.out.println(greetingFromConstructor);
+
+		//@primary demo
+		MyController myController = (MyController) ctx.getBean("myController");
+		String greetingFromMyController = myController.getGreeting();
+		System.out.println(greetingFromMyController);
+
 
 
 

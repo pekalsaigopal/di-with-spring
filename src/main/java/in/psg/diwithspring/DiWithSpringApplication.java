@@ -1,17 +1,17 @@
-package in.psg.diwithoutspring;
+package in.psg.diwithspring;
 
-import in.psg.diwithoutspring.controllers.ConstructorInjectedController;
-import in.psg.diwithoutspring.controllers.PropertyInjectedController;
-import in.psg.diwithoutspring.controllers.SetterInjectedController;
+import in.psg.diwithspring.controllers.ConstructorInjectedController;
+import in.psg.diwithspring.controllers.PropertyInjectedController;
+import in.psg.diwithspring.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class DiWithoutSpringApplication {
+public class DiWithSpringApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext ctx = SpringApplication.run(DiWithoutSpringApplication.class, args);
+		ApplicationContext ctx = SpringApplication.run(DiWithSpringApplication.class, args);
 
 		//property injection
 		PropertyInjectedController propertyInjectedController = (PropertyInjectedController) ctx.getBean("propertyInjectedController");

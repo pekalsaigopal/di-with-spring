@@ -1,6 +1,6 @@
-package in.psg.diwithoutspring.controllers;
+package in.psg.diwithspring.controllers;
 
-import in.psg.diwithoutspring.services.GreetingService;
+import in.psg.diwithspring.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

@@ -1,9 +1,6 @@
 package in.psg.diwithoutspring;
 
-import in.psg.diwithoutspring.controllers.ConstructorInjectedController;
-import in.psg.diwithoutspring.controllers.MyController;
-import in.psg.diwithoutspring.controllers.PropertyInjectedController;
-import in.psg.diwithoutspring.controllers.SetterInjectedController;
+import in.psg.diwithoutspring.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -33,6 +30,12 @@ public class DiWithoutSpringApplication {
 		MyController myController = (MyController) ctx.getBean("myController");
 		String greetingFromMyController = myController.getGreeting();
 		System.out.println(greetingFromMyController);
+
+		//@Profile demo
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		String greetingFromI18Controler = i18nController.sayHello();
+		System.out.println(greetingFromI18Controler);
+
 
 
 

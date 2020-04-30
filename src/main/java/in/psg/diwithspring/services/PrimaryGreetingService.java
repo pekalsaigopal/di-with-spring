@@ -1,4 +1,4 @@
-package in.psg.diwithoutspring.services;
+package in.psg.diwithspring.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

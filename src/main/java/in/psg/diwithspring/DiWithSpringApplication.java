@@ -37,11 +37,6 @@ public class DiWithSpringApplication {
 		System.out.println(greetingFromI18Controler);
 
 
-
-
-
-
-
 	}
 
 }

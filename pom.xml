@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.psg</groupId>
-	<artifactId>di-without-spring</artifactId>
+	<artifactId>di-with-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>di-without-spring</name>
-	<description>Dependency Injection without Spring</description>
+	<name>di-with-spring</name>
+	<description>Dependency Injection with Spring</description>
 
 	<properties>
 		<java.version>1.8</java.version>

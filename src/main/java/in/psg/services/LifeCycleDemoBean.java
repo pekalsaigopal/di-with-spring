@@ -1,4 +1,4 @@
-package in.psg.diwithspring.services;
+package in.psg.services;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;

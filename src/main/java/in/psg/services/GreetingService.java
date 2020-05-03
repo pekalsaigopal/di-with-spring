@@ -1,4 +1,4 @@
-package in.psg.diwithspring.services;
+package in.psg.services;
 
 
 public interface GreetingService {

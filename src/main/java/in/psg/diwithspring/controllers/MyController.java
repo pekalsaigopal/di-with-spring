@@ -1,6 +1,6 @@
 package in.psg.diwithspring.controllers;
 
-import in.psg.diwithspring.services.GreetingService;
+import in.psg.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller
